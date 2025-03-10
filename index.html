@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Audiophile</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="shortcut icon" href="/favicon.ico" />
@@ -21,7 +22,7 @@
       <!-- Cards  -->
       <section class="container">
         <ul class="cards">
-          <li class="card-wrapper">
+          <li data-aos="zoom-in" class="card-wrapper">
             <img
               class="card-img"
               src="./img/product-xx99-mark-two-headphones.jpg"
@@ -41,7 +42,7 @@
               <a class="orange-button" href="#">See Product</a>
             </div>
           </li>
-          <li class="card-wrapper">
+          <li data-aos="zoom-out" class="card-wrapper">
             <img
               class="card-img"
               src="./img/product-xx99-mark-one-headphones.jpg"
@@ -60,7 +61,7 @@
               <a class="orange-button" href="#">See Product</a>
             </div>
           </li>
-          <li class="card-wrapper">
+          <li data-aos="fade-right" class="card-wrapper">
             <img
               class="card-img"
               src="./img/product-xx59-headphones.jpg"
@@ -69,7 +70,132 @@
               height="560"
             />
             <div class="card-content">
-              <h2 class="h2">XX59 <br>Headphones</h2>
+              <h2 class="h2">XX59 <br />Headphones</h2>
+              <p class="paragraph">
+                Enjoy your audio almost anywhere and customize it to your
+                specific tastes with the XX59 headphones. The stylish yet
+                durable versatile wireless headset is a brilliant companion at
+                home or on the move.
+              </p>
+              <a class="orange-button" href="#">See Product</a>
+            </div>
+          </li>
+          <li data-aos="fade-left" class="card-wrapper">
+            <img
+              class="card-img"
+              src="./img/product-xx99-mark-two-headphones.jpg"
+              alt="Headphone"
+              width="540"
+              height="560"
+            />
+            <div class="card-content">
+              <span class="badge">New Product</span>
+              <h2 class="h2">XX99 Mark II Headphones</h2>
+              <p class="paragraph">
+                The new XX99 Mark II headphones is the pinnacle of pristine
+                audio. It redefines your premium headphone experience by
+                reproducing the balanced depth and precision of studio-quality
+                sound.
+              </p>
+              <a class="orange-button" href="#">See Product</a>
+            </div>
+          </li>
+          <li
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-center"
+            class="card-wrapper"
+          >
+            <img
+              class="card-img"
+              src="./img/product-xx99-mark-one-headphones.jpg"
+              alt="Headphone"
+              width="540"
+              height="560"
+            />
+            <div class="card-content">
+              <h2 class="h2">XX99 Mark I Headphones</h2>
+              <p class="paragraph">
+                As the gold standard for headphones, the classic XX99 Mark I
+                offers detailed and accurate audio reproduction for audiophiles,
+                mixing engineers, and music aficionados alike in studios and on
+                the go.
+              </p>
+              <a class="orange-button" href="#">See Product</a>
+            </div>
+          </li>
+          <li
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            class="card-wrapper"
+          >
+            <img
+              class="card-img"
+              src="./img/product-xx59-headphones.jpg"
+              alt="Headphone"
+              width="540"
+              height="560"
+            />
+            <div class="card-content">
+              <h2 class="h2">XX59 <br />Headphones</h2>
+              <p class="paragraph">
+                Enjoy your audio almost anywhere and customize it to your
+                specific tastes with the XX59 headphones. The stylish yet
+                durable versatile wireless headset is a brilliant companion at
+                home or on the move.
+              </p>
+              <a class="orange-button" href="#">See Product</a>
+            </div>
+          </li>
+          <li data-aos="flip-left" class="card-wrapper">
+            <img
+              class="card-img"
+              src="./img/product-xx99-mark-two-headphones.jpg"
+              alt="Headphone"
+              width="540"
+              height="560"
+            />
+            <div class="card-content">
+              <span class="badge">New Product</span>
+              <h2 class="h2">XX99 Mark II Headphones</h2>
+              <p class="paragraph">
+                The new XX99 Mark II headphones is the pinnacle of pristine
+                audio. It redefines your premium headphone experience by
+                reproducing the balanced depth and precision of studio-quality
+                sound.
+              </p>
+              <a class="orange-button" href="#">See Product</a>
+            </div>
+          </li>
+          <li data-aos="flip-up" class="card-wrapper">
+            <img
+              class="card-img"
+              src="./img/product-xx99-mark-one-headphones.jpg"
+              alt="Headphone"
+              width="540"
+              height="560"
+            />
+            <div class="card-content">
+              <h2 class="h2">XX99 Mark I Headphones</h2>
+              <p class="paragraph">
+                As the gold standard for headphones, the classic XX99 Mark I
+                offers detailed and accurate audio reproduction for audiophiles,
+                mixing engineers, and music aficionados alike in studios and on
+                the go.
+              </p>
+              <a class="orange-button" href="#">See Product</a>
+            </div>
+          </li>
+          <li data-aos="zoom-out-down" class="card-wrapper">
+            <img
+              class="card-img"
+              src="./img/product-xx59-headphones.jpg"
+              alt="Headphone"
+              width="540"
+              height="560"
+            />
+            <div class="card-content">
+              <h2 class="h2">XX59 <br />Headphones</h2>
               <p class="paragraph">
                 Enjoy your audio almost anywhere and customize it to your
                 specific tastes with the XX59 headphones. The stylish yet
@@ -84,5 +210,10 @@
     </main>
     <!-- Footer  -->
     <footer></footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init()
+    </script>
   </body>
 </html>

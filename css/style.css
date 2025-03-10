@@ -19,6 +19,8 @@
 }
 
 body {
+    margin-top: 150px;
+    margin-bottom: 150px;
     color: var(--dark-50);
     font-family: 'Manrope', 'Arial', sans-serif;
 }
